@@ -11,6 +11,11 @@ const nextConfig: NextConfig = {
       }
     ],
   },
+
+  experimental: {
+    // dynamicIO: true,   //[CanaryOnlyError: The experimental feature "experimental.dynamicIO" can only be enabled when using the latest canary version of Next.js.]
+  },
+
 };
 
 export default nextConfig;

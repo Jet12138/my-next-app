@@ -1,4 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# System requirements
+Before you begin, make sure your system meets the following requirements:
+## Node.js 18.18 or later.
+## macOS, Windows (including WSL), or Linux.
+
+
 
 ## Getting Started
 

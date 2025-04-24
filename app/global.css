@@ -1,7 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import 'tailwindcss';
+@import "tailwindcss";
+
+/* 引入DOUYU 字体文件，之后在添加样式时就可以用font-family来引用该字体了；  */
+@font-face {
+    font-family: "DOUYU";
+    src: url("/src/assets/fonts/1639093199705607.ttf") format("truetype");
+}
+.tit-font {
+    font-family: "DOUYU";
+    font-weight: normal;
+    line-height: 28px;
+    color: #ffffff;
+    background: linear-gradient(0deg, #98ffda 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
