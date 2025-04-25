@@ -1,6 +1,14 @@
 import Link from "next/link";
 import appcss from "./app.module.css";
 export default function Page(){
+    // Server side Action
+    async function createPost(formData: FormData){
+        'use server'
+        const title = formData.get("title")
+        const content = formData.get("content")
+    }
+
+    
     return (
         <div>
             <h1 className="text-3xl font-bold text-center underline">Hello world!</h1>
@@ -11,3 +19,5 @@ export default function Page(){
         </div>
     )
 }
+
+
