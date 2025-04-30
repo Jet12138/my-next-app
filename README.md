@@ -4,7 +4,8 @@ Before you begin, make sure your system meets the following requirements:
 ## Node.js 18.18 or later.
 ## macOS, Windows (including WSL), or Linux.
 
-
+# License: "Anti 996" License
+This project is licensed under the Anti 996 License.
 
 ## Getting Started
 
