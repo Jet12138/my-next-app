@@ -10,7 +10,7 @@ export default function Post({
         id: number;
         title: string;
         body: string;
-        [prop: string]: any;
+        [prop: string]: any | string;
     }[] >
 }){
     console.log('Line 19', posts);
