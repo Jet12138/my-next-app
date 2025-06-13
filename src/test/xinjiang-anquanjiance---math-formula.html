@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>数学公式示例</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>识别到的数学公式：</h1>
+    <div>
+        $$
+        \begin{aligned}
+        S &= S_{Hu} + S_{Hd} + S_T + S_P + S_\theta \\
+        &= a_0 + \sum_{i=1}^{m1} \left[ a_{1i} \left( \overline{H}_{ui} - \overline{H}_{u0i} \right) \right] + \alpha_d \left( H_d - H_{d0} \right) \\
+        &+ \sum_{i=1}^{2} \left[ b_{1i} \left( \sin \frac{2\pi i t}{365} - \sin \frac{2\pi i t_0}{365} \right) + b_{2i} \left( \cos \frac{2\pi i t}{365} - \cos \frac{2\pi i t_0}{365} \right) \right] \\
+        &+ \sum_{i=1}^{m2} c_i \left( \overline{P}_i - \overline{P}_{0i} \right) + c_1 \left( \theta - \theta_0 \right) + c_2 \left( \ln \theta - \ln \theta_0 \right)
+        \end{aligned}
+        $$
+    </div>
+
+    <hr/>
+
+    <h1>识别到的数学公式：</h1>
+    <div>
+        $$
+        \begin{aligned}
+        S_{UP1} &= 729.1053 + 0.2995 \times (H_u - H_u^0) + 0.3451 \times (\overline{H}_{u3-4} - \overline{H}_{u3-4}^0) \\
+        &+ 0.485 \times (\overline{H}_{u16-30} - \overline{H}_{u16-30}^0) - 0.21368 \times (\sin \frac{2\pi t}{365} - \sin \frac{2\pi t_0}{365}) \\
+        &- 0.53165 \times (\cos \frac{2\pi t}{365} - \cos \frac{2\pi t_0}{365}) + 0.344353 \times (\cos \frac{4\pi t}{365} - \cos \frac{4\pi t_0}{365}) \\
+        &- 2.10646 \times (\theta - \theta_0) + 40.42348 \times (\ln \theta - \ln \theta_0)
+        \end{aligned}
+        $$
+    </div>
+</body>
+</html>

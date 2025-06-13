@@ -5,7 +5,8 @@ import {  usePathname, useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 // function generateStaticParams() {}
 
-export default function Page() {
+export default async  function Page({ params }: { params: { slug: string } }) {
+    const { slug } = await params
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();

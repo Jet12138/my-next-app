@@ -1,5 +1,14 @@
 import Link from "next/link";
 import appcss from "./app.module.css";
+import { Form } from "./ui/form";
+
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'My Blog',
+  description: 'My Blog is bringing happiness to you. ',
+}
+
 export default function Page(){
     // Server side Action
     async function createPost(formData: FormData){
@@ -8,7 +17,7 @@ export default function Page(){
         const content = formData.get("content")
     }
 
-    
+
     return (
         <div>
             <h1 className="text-3xl font-bold text-center underline">Hello world!</h1>
@@ -16,6 +25,7 @@ export default function Page(){
             <Link href={`/blog`} style={{color: appcss.color}}>  to /blog </Link>
             <br />
             <Link href={`/blog2`}>  to /blog2 </Link>
+            <Form/>
         </div>
     )
 }

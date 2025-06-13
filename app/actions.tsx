@@ -1,7 +1,7 @@
 "use server";
 import { revalidatePath } from 'next/cache'
 import { redirect } from 'next/navigation'
-import { useActionStat } from 'react';
+import { useActionState } from 'react';
 
 
 export async function createPost(formData: FormData) {
